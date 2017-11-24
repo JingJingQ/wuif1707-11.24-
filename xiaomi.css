@@ -1,0 +1,123 @@
+*{
+	margin:0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #B0B0B0;
+}
+.top{
+	width: 100%;
+	height:121px;
+	background:red;
+	background-image:url("img/2017-11-24_142437.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*引入图片的两种方式：
+1.（在html文件中）img图片标签引入；
+2.（在css文件中）背景图片的方式；
+  步骤：
+  1）创建div元素，设置宽高
+  2）引入背景图片:background-image:url("相对路径")；
+  3）设置background-repeat:no-repeat;
+  4）背景图片的大小：background-size:1200px 200px;
+                                     100% 100%;
+                                     cover
+                                     contain
+  5）背景图片的位置：background-position:center;
+3.需要经常更新的时候用img标签；
+  不需要进场更新的时候用背景图片的方式引入；*/
+
+.topNav{
+	width: 100%;
+	height: 40px;
+	background: #333333;
+	font-size: 12px;
+	color:#b0b0b0;
+	line-height: 40px;
+}
+.neikuan{
+	width: 1226px;
+	height: 100%;
+	margin: 0 auto;
+}
+.topLeft{
+	width:630px;
+	height: 100%;
+	float: left;
+}
+/*.topLeft a{
+	font-size: 12px;
+	color:#b0b0b0;
+	line-height: 40px;
+}*/
+.topLeft span{
+	color: #424242;
+}
+.topRight{
+	width: 280px;
+	height:100%;
+	float: right;
+}
+/*.topRight a{
+	font-size: 12px;
+	color:#b0b0b0;
+	line-height: 40px;
+}*/
+.topRight span{
+	color: #424242;
+}
+.cart{
+	width:122px;
+	height: 100%;
+	background:#424242;
+	float: right;
+	text-align: center;
+}
+.nav{
+	width: 100%;
+	height:100px;
+}
+.zuo{
+	width: 57px;
+	height:100%;
+	float: left;
+}
+.zuo img{
+	width: 100%;
+	height:56px;
+	margin-top: 22px;
+}
+.zhong{
+	width: 600px;
+	height: 100%;
+	background:blue;
+	float: left;
+	margin-left: 199px;
+}
+.you{
+	width:297px;
+	height: 100%;
+	float: right;
+}
+.search{
+	width: 243px;
+	height:49px;
+	border:1px solid #E0E0E0;
+	margin-top: 25px;
+	float: left;
+}
+.btn{
+	width:50px;
+	height: 49px;
+	border:1px solid #e0e0e0;
+	float: left;
+	margin-top: 25px;
+	border-left:none;
+	color:#6C7A9B;
+	font-size: 12px;
+	text-align: center;
+	line-height: 49px;
+}
